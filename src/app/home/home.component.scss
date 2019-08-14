@@ -1,0 +1,63 @@
+@import "../styles/variables";
+.header {
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 71px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.logo {
+  height: 41px;
+  width: 41px;
+  border-radius: 50%;
+}
+.slide {
+  background-image: url("/assets/slider-bg-2.jpg");
+  height: 950px;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.heading {
+  font-family: "Exo", sans-serif;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.mt-custom {
+  margin-top: 100px;
+}
+
+.custom-padding {
+  padding-left: 70px;
+}
+.card {
+  box-shadow: 0 1px 6px rgba(57,73,76,.35);
+}
+.card-header {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  font-family: "Exo", sans-serif;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 30px;
+}
+.card-body {
+  border: none;
+  font-family: "Exo", sans-serif;
+}
+.card-text {
+  text-align: center;
+}
