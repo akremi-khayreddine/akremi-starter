@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   @HostListener("window:scroll", ["$event"])
-  handleScroll() {
+  handleScroll(event) {
     const windowScroll = window.pageYOffset;
     if (windowScroll >= 500) {
       this.sticky = true;
