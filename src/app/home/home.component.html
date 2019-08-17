@@ -1,53 +1,148 @@
-<div class="container-fluid pb-4">
-  <div class="slide">
-    <div class="header">
-      <img class="logo" src="assets/logo.png" />
-    </div>
-    <div class="row mt-custom">
-      <div class="col-md-5 custom-padding">
-        <h1 class="heading">Nous transformons vos idées en valeur</h1>
+<div class="container-fluid position-relative pb-4">
+  <div class="bg">
+    <div class="slide">
+      <nav [class.sticky]="sticky" #stickyMenu class="navbar fixed-top navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img *ngIf="!sticky" src="assets/logo-1.png" style="height: 60px" alt="" />
+          <img *ngIf="sticky" src="assets/logo-2.png" style="height: 60px" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul
+            class="navbar-nav mr-auto mt-2 flex-1 mt-lg-0 d-flex justify-content-end"
+          >
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Services <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row mt-custom">
+        <div class="col-md-5 custom-padding">
+          <h1 class="heading">Nous transformons vos idées en valeur</h1>
+        </div>
+        <div class="col-md-7 d-flex justify-content-end pr-5">
+          <img class="slide-img" src="assets/widget-2-1.png" />
+        </div>
       </div>
     </div>
   </div>
+  <div class="row services">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header bg-purple d-flex flex-column">
+          <i class="material-icons">cloud</i>
+          DevOps
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header bg-red d-flex flex-column">
+          <i class="material-icons">developer_mode</i>
+          Developpement
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header bg-green d-flex flex-column">
+          <i class="material-icons">
+            security
+          </i>
+          Sécurité
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row bg-gray">
+    <div
+      class="col-md-6 d-flex align-items-center flex-column justify-content-center"
+    >
+      <h1>
+        We are branding strategy service from 2001 for our customers.
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+    </div>
+    <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <img class="slide-img" src="assets/about.65170490.png" />
+    </div>
+  </div>
   <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-        </div>
-      </div>
+    <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <img class="slide-img" src="assets/1.9839afc0.png" />
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-        </div>
-      </div>
+    <div
+      class="col-md-6 d-flex align-items-center flex-column justify-content-center"
+    >
+      <h1>
+        Get Started with our software
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo.
+      </p>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-        </div>
-      </div>
+  </div>
+  <div class="row bg-gray">
+    <div
+      class="col-md-6 d-flex align-items-center flex-column justify-content-center"
+    >
+      <h1>
+        User Experience
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo.
+      </p>
+    </div>
+    <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <img class="slide-img" src="assets/3.70466ca1.png" />
     </div>
   </div>
 </div>

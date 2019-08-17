@@ -1,37 +1,71 @@
 @import "../styles/variables";
-.header {
-  display: flex;
+@import "~bootstrap/scss/mixins/breakpoints";
+.row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.navbar {
+  color: white !important;
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.sticky {
+  background: white;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  .navbar-brand,
+  .nav-link {
+    color: black !important;
+  }
+}
+.flex-1 {
   flex: 1;
-  padding: 15px;
-  background-color: rgba(255, 255, 255, 0.3);
-  height: 71px;
-  position: fixed;
-  top: 0;
-  width: 100vw;
 }
 .logo {
-  height: 41px;
-  width: 41px;
-  border-radius: 50%;
+  height: 60px;
+  margin-top: -10px;
+}
+.bg {
+  background: linear-gradient(to right, #27b1b4, #7d2ae8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110vh;
+  overflow: hidden;
 }
 .slide {
-  background-image: url("/assets/slider-bg-2.jpg");
-  height: 950px;
-  background-size: cover;
-  background-position: 50%;
-  position: relative;
-  overflow: hidden;
-  margin-right: -15px;
-  margin-left: -15px;
+  background-image: url("/assets/bg.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100%;
 }
-
+.services {
+  padding-top: 110vh;
+}
 .heading {
   font-family: "Exo", sans-serif;
   font-size: 50px;
   color: #fff;
   font-weight: 700;
+  margin-top: 100px;
 }
-
+h1 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+}
 .mt-custom {
   margin-top: 100px;
 }
@@ -40,24 +74,67 @@
   padding-left: 70px;
 }
 .card {
-  box-shadow: 0 1px 6px rgba(57,73,76,.35);
+  border: none;
 }
 .card-header {
-  background-color: $primary-color;
   color: white;
-  border: none;
+  border: none !important;
   font-family: "Exo", sans-serif;
   border-radius: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 150px;
   font-size: 30px;
+  i {
+    font-size: 64px;
+  }
 }
 .card-body {
-  border: none;
-  font-family: "Exo", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.06);
 }
 .card-text {
   text-align: center;
+}
+.bg-primary {
+  background-color: #27b1b4 !important;
+}
+.bg-purple {
+  background-color: #7127b4 !important;
+}
+.bg-red {
+  background-color: #b42a27 !important;
+}
+.bg-green {
+  background-color: #6ab427 !important;
+}
+.bg-gray {
+  background-color: #f7f9fc;
+}
+.slide-img {
+  height: 80%;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .custom-padding {
+    padding-left: 20px;
+  }
+  .slide-img {
+    width: 90vw;
+  }
+  .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
