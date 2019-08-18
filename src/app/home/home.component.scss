@@ -45,6 +45,16 @@
   background: linear-gradient(to right, #27b1b4, #276ab4, #b427b1);
   color: white;
 }
+.footer-text {
+  padding-left: 8rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+.bg-gradiant-inverse {
+  background: linear-gradient(to right, #b427b1, #276ab4, #27b1b4);
+  color: white;
+}
 .slide {
   background-image: url("https://akremi-khayreddine.github.io/akremi-starter/assets/bg.webp");
   background-repeat: no-repeat;
@@ -145,7 +155,24 @@ p {
 .slide-img {
   height: 70%;
 }
-
+.product-img {
+  padding: 2px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.img-1 {
+  position: absolute;
+  top: 0;
+  left: -300px;
+}
+.img-2 {
+  position: absolute;
+  top: 20px;
+  left: 520px;
+}
+.fg-white {
+  color: white !important;
+}
 @media (max-width: 768px) {
   .heading {
     font-size: 30px;
