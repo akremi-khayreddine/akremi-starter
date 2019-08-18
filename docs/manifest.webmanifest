@@ -1,7 +1,7 @@
 {
   "name": "distinctlab-portfolio",
   "short_name": "distinctlab-portfolio",
-  "theme_color": "#1976d2",
+  "theme_color": "#27b1b4",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
