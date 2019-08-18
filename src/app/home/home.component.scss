@@ -33,7 +33,7 @@
   margin-top: -10px;
 }
 .bg {
-  background: linear-gradient(to right, #27b1b4, #7d2ae8);
+  background: linear-gradient(to right, #27b1b4, #276ab4, #b427b1);
   position: absolute;
   top: 0;
   left: 0;
@@ -43,6 +43,23 @@
 }
 .slide {
   background-image: url("https://akremi-khayreddine.github.io/akremi-starter/assets/bg.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 100%;
+}
+.bg-2 {
+  background: linear-gradient(to right, #27b1b4, #276ab4, #b427b1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+.slide-2 {
+  width: 100vw;
+  background-image: url("/assets/Untitled-2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100%;

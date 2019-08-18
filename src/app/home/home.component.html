@@ -1,10 +1,24 @@
 <div class="container-fluid position-relative pb-4">
   <div class="bg">
     <div class="slide">
-      <nav [class.sticky]="sticky" #stickyMenu class="navbar fixed-top navbar-expand-lg">
+      <nav
+        [class.sticky]="sticky"
+        #stickyMenu
+        class="navbar fixed-top navbar-expand-lg"
+      >
         <a class="navbar-brand" href="#">
-          <img *ngIf="!sticky" src="assets/logo-1.png" style="height: 60px" alt="" />
-          <img *ngIf="sticky" src="assets/logo-2.png" style="height: 60px" alt="" />
+          <img
+            *ngIf="!sticky"
+            src="assets/logo-1.png"
+            style="height: 60px"
+            alt=""
+          />
+          <img
+            *ngIf="sticky"
+            src="assets/logo-2.png"
+            style="height: 60px"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -38,7 +52,7 @@
       <div class="row mt-custom pl-0">
         <div class="col-md-5 custom-padding">
           <h1 class="heading">Nous transformons vos idées en valeur</h1>
-        </div> 
+        </div>
         <div class="col-md-7 d-flex c-pr-5">
           <img class="slide-img" src="assets/widget-2-1.png" />
         </div>
@@ -91,7 +105,7 @@
       </div>
     </div>
   </div>
-  <div class="row bg-gray">
+  <div class="row">
     <div
       class="col-md-6 d-flex align-items-center flex-column justify-content-center"
     >
