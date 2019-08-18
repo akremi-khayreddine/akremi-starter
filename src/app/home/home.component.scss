@@ -52,7 +52,7 @@
 }
 .heading {
   font-family: "Exo", sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   color: #fff;
   font-weight: 700;
   margin-top: 100px;
@@ -69,7 +69,10 @@ p {
 .mt-custom {
   margin-top: 100px;
 }
-
+.c-pr-5 {
+  padding-right: 3rem !important;
+  justify-content: flex-end !important;
+}
 .custom-padding {
   padding-left: 70px;
 }
@@ -116,7 +119,7 @@ p {
   background-color: #f7f9fc;
 }
 .slide-img {
-  height: 80%;
+  height: 70%;
 }
 
 @media (max-width: 768px) {
@@ -136,5 +139,9 @@ p {
   .row {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .c-pr-5 {
+    padding-right: 0 !important;
+    justify-content: center !important;
   }
 }
