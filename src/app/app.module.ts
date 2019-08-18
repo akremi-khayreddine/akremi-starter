@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-
+ 
 @NgModule({
   declarations: [
     AppComponent

@@ -41,6 +41,10 @@
   height: 110vh;
   overflow: hidden;
 }
+.bg-gradiant {
+  background: linear-gradient(to right, #27b1b4, #276ab4, #b427b1);
+  color: white;
+}
 .slide {
   background-image: url("https://akremi-khayreddine.github.io/akremi-starter/assets/bg.webp");
   background-repeat: no-repeat;
@@ -95,6 +99,9 @@ p {
 }
 .card {
   border: none;
+}
+.with-anim {
+  overflow: hidden;
 }
 .card-header {
   color: white;
