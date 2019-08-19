@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1566176400821,
+  "timestamp": 1566178806919,
   "index": "/akremi-starter/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/akremi-starter/favicon.ico",
         "/akremi-starter/index.html",
-        "/akremi-starter/main-es2015.93686cfd8a73514daf87.js",
-        "/akremi-starter/main-es5.24aec5d2fbcd98759e45.js",
+        "/akremi-starter/main-es2015.118dc8aea9a34195434e.js",
+        "/akremi-starter/main-es5.328194626db5c98f91bb.js",
         "/akremi-starter/polyfills-es2015.56ae2d261a90793e0744.js",
         "/akremi-starter/polyfills-es5.da479429bfd39fbf99d9.js",
         "/akremi-starter/runtime-es2015.10a1f01eef199006286d.js",
@@ -84,9 +84,9 @@
     "/akremi-starter/assets/widget-2-1.png": "753ff746ebc4ab7e1fba134dc16e0bc1dc537349",
     "/akremi-starter/assets/widget-2-2.png": "be08f2e16d7abec28214fa840c5e1dacd4a026e6",
     "/akremi-starter/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/akremi-starter/index.html": "0c33ac79f432dd3de1dcda2e5bc5a5b36a7743e2",
-    "/akremi-starter/main-es2015.93686cfd8a73514daf87.js": "96f923e0b96af72468966a64d8df8c25ce36e62d",
-    "/akremi-starter/main-es5.24aec5d2fbcd98759e45.js": "b29ce4ee8e809b920cdca4839a50c48a45b8e35d",
+    "/akremi-starter/index.html": "aace13cbf649107b482a12e2c96ae4ad74da13e1",
+    "/akremi-starter/main-es2015.118dc8aea9a34195434e.js": "cedb48bde0a6fc2cdfcc50053ebd6eab41dbe5f7",
+    "/akremi-starter/main-es5.328194626db5c98f91bb.js": "e22924dec1f2251722d0e42d386bc8927e04bef2",
     "/akremi-starter/polyfills-es2015.56ae2d261a90793e0744.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
     "/akremi-starter/polyfills-es5.da479429bfd39fbf99d9.js": "7e1b38fcb73a9607657630e25f278302170f96dc",
     "/akremi-starter/runtime-es2015.10a1f01eef199006286d.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
