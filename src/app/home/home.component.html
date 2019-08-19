@@ -118,7 +118,7 @@
       <h1 class="animated delay-2s bounceInLeft">
         We are branding strategy service from 2001 for our customers.
       </h1>
-      <p class="animated delay-2s bounceInLeft">
+      <p class="animated delay-2s bounceInLeft d-none d-md-flex">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
         sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -149,7 +149,7 @@
       <h1 class="animated delay-2s bounceInRight">
         Get Started with our software
       </h1>
-      <p class="animated delay-2s bounceInLeft">
+      <p class="animated delay-2s bounceInLeft d-none d-md-flex">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -164,7 +164,7 @@
       <h1>
         User Experience
       </h1>
-      <p>
+      <p class="d-none d-md-flex">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -192,14 +192,113 @@
       class="col-md-4 d-flex align-items-center flex-column justify-content-center"
     >
       <h1>
-        User Experience
+        Nos Produits
       </h1>
-      <p>
+      <p class="d-none d-md-flex">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo.
       </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center mt-5 mb-5">
+      <h1>Blog</h1>
+    </div>
+    <div class="col-md-4">
+      <mat-card class="example-card">
+        <img
+          mat-card-image
+          src="/assets/post-3-img.jpg"
+          alt="Photo of a Shiba Inu"
+        />
+        <mat-card-content>
+          Posted by J.Delaney on April 12, 2019
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz
+            breeds of dog from Japan. A small, agile dog that copes very well
+            with mountainous terrain, the Shiba Inu was originally bred for
+            hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-md-4">
+      <mat-card class="example-card">
+        <img
+          mat-card-image
+          src="/assets/post-2-img.jpg"
+          alt="Photo of a Shiba Inu"
+        />
+        <mat-card-content>
+          Posted by J.Delaney on April 12, 2019
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz
+            breeds of dog from Japan. A small, agile dog that copes very well
+            with mountainous terrain, the Shiba Inu was originally bred for
+            hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-md-4">
+      <mat-card class="example-card">
+        <img
+          mat-card-image
+          src="/assets/post-1-img.jpg"
+          alt="Photo of a Shiba Inu"
+        />
+        <mat-card-content>
+          Posted by J.Delaney on April 12, 2019
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz
+            breeds of dog from Japan. A small, agile dog that copes very well
+            with mountainous terrain, the Shiba Inu was originally bred for
+            hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  <div class="row bg-gray" [formGroup]="form">
+    <div class="col-12 d-flex justify-content-center mt-5 mb-5">
+      <h1>Contact</h1>
+    </div>
+    <div style="height: 500px;" class="col-md-5">
+      <div
+        style="height: 100%;"
+        leaflet
+        [leafletOptions]="options"
+        [leafletBaseLayers]="baseLayers"
+        [leafletLayersControlOptions]="layersControlOptions"
+      ></div>
+    </div>
+    <div class="col-md-7 p-5">
+      <mat-form-field class="w-100">
+        <input matInput placeholder="Nom" value="" />
+      </mat-form-field>
+      <mat-form-field class="w-100">
+        <input matInput placeholder="E-mail" value="" />
+      </mat-form-field>
+      <mat-form-field class="w-100">
+        <input matInput placeholder="Objet" value="" />
+      </mat-form-field>
+      <mat-form-field class="w-100">
+        <textarea rows="10" matInput placeholder="Message"></textarea>
+      </mat-form-field>
     </div>
   </div>
   <div class="row border-top bg-gradiant-inverse fg-white">

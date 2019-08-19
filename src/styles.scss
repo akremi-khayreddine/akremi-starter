@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
 body {
   font-size: 16px;
 }
@@ -27,6 +29,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.mat-form-field-label {
+  font-family: "Exo", sans-serif !important;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
@@ -39,7 +45,7 @@ body {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #6AB427; 
 }
 
 /* Handle on hover */
