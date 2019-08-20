@@ -36,15 +36,15 @@
             class="navbar-nav mr-auto mt-2 flex-1 mt-lg-0 d-flex justify-content-end"
           >
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Services <span class="sr-only">(current)</span></a
+              <a (click)="scroll(services)" class="nav-link"
+                >Nos Services <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Produits</a>
+              <a (click)="scroll(products)" class="nav-link">Nos Produits</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
+              <a (click)="scroll(contact)" class="nav-link">Contacts</a>
             </li>
           </ul>
         </div>
@@ -52,12 +52,15 @@
       <div class="row mt-custom pl-0">
         <div class="col-md-5 custom-padding">
           <h1 class="heading">Nous transformons vos idées en valeur</h1>
-          <p class="fg-white">
+          <p class="fg-white d-none d-md-flex mb-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo.
           </p>
+          <button (click)="scroll(contact)" mat-raised-button color="primary">
+            Contactez nous
+          </button>
         </div>
         <div class="col-md-7 d-flex c-pr-5">
           <img class="slide-img" src="assets/hero-9-img.png" />
@@ -65,8 +68,12 @@
       </div>
     </div>
   </div>
+  <!-- Services -->
   <div class="row services">
-    <div class="col-md-4">
+    <div #services class="col-12 d-flex justify-content-center mt-5 mb-5">
+      <h1>Nos Services</h1>
+    </div>
+    <div class="col-md-4 mb-5">
       <div class="card">
         <div class="card-header bg-purple d-flex flex-column">
           <i class="material-icons">cloud</i>
@@ -80,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-5">
       <div class="card">
         <div class="card-header bg-red d-flex flex-column">
           <i class="material-icons">developer_mode</i>
@@ -94,7 +101,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-5">
       <div class="card">
         <div class="card-header bg-green d-flex flex-column">
           <i class="material-icons">
@@ -175,7 +182,8 @@
       <img class="slide-img" src="assets/3.70466ca1.png" />
     </div>
   </div>
-  <div style="min-height: 470px" class="row bg-gray pb-4">
+  <!-- Services -->
+  <div #products style="min-height: 470px" class="row bg-gray pb-4">
     <div class="col-md-8 position-relative">
       <img
         class="product-img border img-1"
@@ -202,11 +210,12 @@
       </p>
     </div>
   </div>
+  <!-- Blog -->
   <div class="row">
     <div class="col-12 d-flex justify-content-center mt-5 mb-5">
       <h1>Blog</h1>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-5">
       <mat-card class="example-card">
         <img
           mat-card-image
@@ -228,7 +237,7 @@
         </mat-card-actions>
       </mat-card>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-5">
       <mat-card class="example-card">
         <img
           mat-card-image
@@ -250,7 +259,7 @@
         </mat-card-actions>
       </mat-card>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-5">
       <mat-card class="example-card">
         <img
           mat-card-image
@@ -273,9 +282,10 @@
       </mat-card>
     </div>
   </div>
-  <div class="row bg-gray" [formGroup]="form">
+  <!-- Contact -->
+  <div #contact class="row bg-gray" [formGroup]="form">
     <div class="col-12 d-flex justify-content-center mt-5 mb-5">
-      <h1>Contact</h1>
+      <h1>Contactez nous</h1>
     </div>
     <div style="height: 500px;" class="col-md-5">
       <div
@@ -301,7 +311,8 @@
       </mat-form-field>
     </div>
   </div>
-  <div class="row border-top bg-gradiant-inverse fg-white">
+  <!-- Footer -->
+  <div class="row border-top bg-gradiant fg-white">
     <div style="height: 400px" class="col-md-4 pt-5 d-flex flex-column">
       <img src="assets/logo-1.png" style="height: 110px" alt="" />
       <div class="footer-text">

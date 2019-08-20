@@ -8,7 +8,7 @@ import {
 } from "@angular/core";
 import { FormGroup, FormControl } from "@angular/forms";
 import { tileLayer, latLng, circle, polygon } from "leaflet";
-import * as L from 'leaflet';
+import * as L from "leaflet";
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
@@ -73,6 +73,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     this.elementPosition = this.menuElement.nativeElement.offsetTop;
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
   }
 
   @HostListener("window:scroll", ["$event"])

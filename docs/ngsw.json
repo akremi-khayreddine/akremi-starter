@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1566253939056,
+  "timestamp": 1566296857795,
   "index": "/akremi-starter/index.html",
   "assetGroups": [
     {
@@ -10,13 +10,13 @@
       "urls": [
         "/akremi-starter/favicon.ico",
         "/akremi-starter/index.html",
-        "/akremi-starter/main-es2015.ca8d2f397989d50fbe74.js",
-        "/akremi-starter/main-es5.d3567acab942c6e5ad1a.js",
+        "/akremi-starter/main-es2015.84b8b0bc82eb8a9a264f.js",
+        "/akremi-starter/main-es5.47f53c2d239301f5536d.js",
         "/akremi-starter/polyfills-es2015.56ae2d261a90793e0744.js",
         "/akremi-starter/polyfills-es5.da479429bfd39fbf99d9.js",
         "/akremi-starter/runtime-es2015.10a1f01eef199006286d.js",
         "/akremi-starter/runtime-es5.9ad22a88fcc70a015907.js",
-        "/akremi-starter/styles.ed7c02c84cb67137f451.css"
+        "/akremi-starter/styles.2f4b0f12be632dc918cd.css"
       ],
       "patterns": []
     },
@@ -95,17 +95,17 @@
     "/akremi-starter/assets/widget-2-1.png": "753ff746ebc4ab7e1fba134dc16e0bc1dc537349",
     "/akremi-starter/assets/widget-2-2.png": "be08f2e16d7abec28214fa840c5e1dacd4a026e6",
     "/akremi-starter/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/akremi-starter/index.html": "b93079732d3d344ef24af521242acc1fbf98f387",
+    "/akremi-starter/index.html": "e639c743439322586ae5a7498bdcef26a7250bd7",
     "/akremi-starter/layers-2x.4f0283c6ce28e888000e.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/akremi-starter/layers.a6137456ed160d760698.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
-    "/akremi-starter/main-es2015.ca8d2f397989d50fbe74.js": "bbfeebcd89f8d7bf38a2ccdc7eecfd6fbac2be7a",
-    "/akremi-starter/main-es5.d3567acab942c6e5ad1a.js": "8758837becda1cba38f437fd6730818d06814c14",
+    "/akremi-starter/main-es2015.84b8b0bc82eb8a9a264f.js": "231b398ba7ad437867af2ffae4479df607c472c2",
+    "/akremi-starter/main-es5.47f53c2d239301f5536d.js": "2bc32a8683a1538c4ae6de20d5194c33d26fbbd0",
     "/akremi-starter/marker-icon.2273e3d8ad9264b7daa5.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/akremi-starter/polyfills-es2015.56ae2d261a90793e0744.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
     "/akremi-starter/polyfills-es5.da479429bfd39fbf99d9.js": "7e1b38fcb73a9607657630e25f278302170f96dc",
     "/akremi-starter/runtime-es2015.10a1f01eef199006286d.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/akremi-starter/runtime-es5.9ad22a88fcc70a015907.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/akremi-starter/styles.ed7c02c84cb67137f451.css": "f9b5480ca84fd74af24f438a6713d6e83e386bee"
+    "/akremi-starter/styles.2f4b0f12be632dc918cd.css": "646e24cf9a39d36cc3e6a19173f04d16f0ae1fbb"
   },
   "navigationUrls": [
     {

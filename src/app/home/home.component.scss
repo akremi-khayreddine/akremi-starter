@@ -11,9 +11,10 @@
   .navbar-brand,
   .nav-link {
     color: white !important;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Exo", sans-serif;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
   }
 }
 .sticky {
@@ -132,7 +133,8 @@ p {
 .card-body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .card-text {
   text-align: center;
@@ -195,7 +197,11 @@ p {
     padding-right: 0 !important;
     justify-content: center !important;
   }
-  .img-1, .img-2 {
+  .img-1,
+  .img-2 {
     display: none;
+  }
+  h1 {
+    font-size: 1.5rem;
   }
 }
